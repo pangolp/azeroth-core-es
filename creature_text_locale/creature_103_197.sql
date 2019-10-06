@@ -1,4 +1,4 @@
-DELETE FROM `creature_text_locale` WHERE `Locale` IN ('esES', 'esMX') AND `CreatureID` IN (103, 116, 117, 121, 122, 123, 124, 125, 197);
+DELETE FROM `creature_text_locale` WHERE `Locale` IN ('esES', 'esMX') AND `CreatureID` BETWEEN 103 AND 197;
 
 INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Text`) VALUES
 (103,0,0,'esES','Veo que esos tontos de la Abadía nos enviaron carne fresca.'),

@@ -1,4 +1,4 @@
-DELETE FROM `creature_text_locale` WHERE `Locale` IN ('esES', 'esMX') AND `CreatureID` IN (6, 29, 38, 40, 54, 61, 68, 80, 95, 97, 98);
+DELETE FROM `creature_text_locale` WHERE `Locale` IN ('esES', 'esMX') AND `CreatureID` BETWEEN 6 AND 98;
 
 INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Text`) VALUES
 (6,0,0,'esES','¡Tú no llevas vela!'),
